@@ -1,0 +1,230 @@
+
+
+/*    PRODUCCION     */
+
+.inicio-produccion {
+    background-color: antiquewhite;
+    padding: 4rem;
+    gap: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.inicio-produccion h2{
+    margin-bottom: 2rem;
+    font-size: 50px;
+}
+
+.video-inicio {
+    border-radius: 20px;
+}
+
+
+/*      DJ    */
+
+
+.inicio-dj {
+    background-color: antiquewhite;
+    padding: 4rem;
+    gap: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.inicio-dj h2{
+    margin-bottom: 2rem;
+    font-size: 50px;
+}
+
+
+
+
+
+/*------------------------------------------
+
+PRODUCCION Y DJ 
+
+--------------------------------------------*/
+
+
+
+.carreras { 
+    background-color: aqua;
+    padding: 2rem;
+    margin: 1rem;
+}
+
+.carreras h3 { 
+    margin-bottom: 2rem;
+    font-size: 40px;
+    border-bottom: 1px solid black;
+}
+
+.contenido-carreras {
+    display: flex;
+    gap: 3rem;
+    margin: 3rem;
+}
+
+.contenido-carreras img {
+    height: 100px;
+    width: 500px;
+}
+
+.contenido-carreras h4{
+    font-size: 25px;
+    margin-bottom: 1rem;
+}
+
+
+
+.curso-inicial { 
+    background-color: aqua;
+    padding: 2rem;
+    margin: 1rem;
+}
+
+.curso-inicial h3 { 
+    margin-bottom: 2rem;
+    font-size: 40px;
+    border-bottom: 1px solid black;
+}
+
+.contenido-curso-inicial {
+    display: flex;
+    gap: 3rem;
+    margin: 3rem;
+}
+
+.contenido-curso-inicial img {
+    height: 100px;
+    width: 500px;
+}
+
+.contenido-curso-inicial h4{
+    font-size: 25px;
+    margin-bottom: 1rem;
+}
+
+
+
+
+
+.curso-avanzado { 
+    background-color: aqua;
+    padding: 2rem;
+    margin: 1rem;
+}
+
+.curso-avanzado h3 { 
+    margin-bottom: 2rem;
+    font-size: 40px;
+    border-bottom: 1px solid black;
+}
+
+.contenido-curso-avanzado {
+    display: flex;
+    gap: 3rem;
+    margin: 3rem;
+}
+
+.contenido-curso-avanzado img {
+    height: 100px;
+    width: 500px;
+}
+
+.contenido-curso-avanzado h4{
+    font-size: 25px;
+    margin-bottom: 1rem;
+}
+
+
+
+
+
+
+
+/*       RESPONSIVEEE       */
+
+
+
+
+
+
+
+
+/* PRODUCCION MUSICAL */
+
+
+@media only screen and (max-width: 850px){
+    
+    .inicio-produccion{
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 2rem;
+        
+    }
+
+    .produccion-musical {
+        text-align: center;
+    }
+
+}
+
+
+@media only screen and (max-width: 580px){
+
+   .contenido-carreras p {
+    display: none;
+   }
+
+   .contenido-curso-inicial p {
+    display: none;
+   }
+
+   .contenido-curso-avanzado p {
+    display: none;
+   }
+
+}
+
+
+
+
+/* DJ */
+
+
+
+@media only screen and (max-width: 850px){
+    
+    .inicio-dj {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 2rem;
+        
+    }
+
+    .dj {
+        text-align: center;
+    }
+
+}
+
+
+@media only screen and (max-width: 580px){
+
+   .contenido-carreras p {
+    display: none;
+   }
+
+   .contenido-curso-inicial p {
+    display: none;
+   }
+
+   .contenido-curso-avanzado p {
+    display: none;
+   }
+
+}
+
+

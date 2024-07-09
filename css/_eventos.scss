@@ -1,0 +1,37 @@
+/*------------------------------------------------------
+
+EVENTOS 
+
+-------------------------------------------------------------*/
+
+
+.titulo-eventos {
+    margin: 1rem;
+    text-align: center;
+}
+
+.video-eventos {
+    margin: 2rem;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.c-item { 
+    height: 400px;
+    padding: 2rem;
+}
+
+.c-img {
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 2rem;
+}
+
+.fechas{
+    margin-top:  3rem;
+    text-align: center;
+}
