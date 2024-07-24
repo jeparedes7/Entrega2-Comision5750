@@ -1,0 +1,53 @@
+
+ /*INDEX*/
+
+
+@keyframes zoomHover {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.05);
+    }
+}
+
+
+.foto1 img:hover, .foto2 img:hover, .foto3 img:hover {
+    animation: zoomHover 1.5s ease-in-out forwards; 
+}
+
+
+
+
+
+
+
+/* PRODUCCION */
+
+
+
+
+@keyframes borderAnimation {
+    0% {
+        border-color: transparent;
+        border-width: 2px;
+    }
+    50% {
+        border-color: rgb(59, 25, 53); /* Color del borde */
+        border-width: 3px; /* Grosor del borde */
+    }
+    100% {
+        border-color: transparent;
+        border-width: 2px;
+    }
+}
+
+
+
+.contenido-carreras img, .contenido-curso-inicial img, .contenido-curso-avanzado img {
+    width: 100%;
+    transition: transform 0.5s ease-in-out; /* Transición suave para el zoom */
+    border: 2px solid transparent; /* Inicialmente sin borde */
+    border-radius: 10px; /* Redondear bordes opcional */
+    animation: borderAnimation 3s infinite; /* Animar el borde */
+}

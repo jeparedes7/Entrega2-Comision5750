@@ -1,0 +1,59 @@
+/*------------------------------------------------------
+
+EVENTOS 
+
+-------------------------------------------------------------*/
+
+
+
+.titulo-eventos {
+    margin: 2rem auto;
+    text-align: center;
+    font-size: 2.5rem;
+    color: black;
+}
+
+.video-eventos {
+    margin: 2rem auto;
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.carousel {
+    margin: 2rem auto;
+    max-width: 1000px; /* Ajusta según el diseño */
+}
+
+
+.c-item { 
+    height: 400px;
+    padding: 2rem;
+}
+
+.c-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.fechas{
+    margin: 3rem auto;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.fechas div {
+    margin-bottom: 1.5rem;
+    color: black;
+}
+
+
+@media (min-width: 750px) {
+    .navbar-eventos {
+       padding: 1rem;
+    }
+}

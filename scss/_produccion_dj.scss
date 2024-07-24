@@ -49,7 +49,7 @@ PRODUCCION Y DJ
 
 
 .carreras { 
-    background-color: aqua;
+    background-color: rgb(128, 138, 138);
     padding: 2rem;
     margin: 1rem;
 }
@@ -64,11 +64,16 @@ PRODUCCION Y DJ
     display: flex;
     gap: 3rem;
     margin: 3rem;
+
+    div {
+        width: 100%;
+    }
 }
 
 .contenido-carreras img {
-    height: 100px;
+    height: 200px;
     width: 500px;
+    border-radius: 10px;
 }
 
 .contenido-carreras h4{
@@ -79,7 +84,7 @@ PRODUCCION Y DJ
 
 
 .curso-inicial { 
-    background-color: aqua;
+    background-color: rgb(128, 138, 138);
     padding: 2rem;
     margin: 1rem;
 }
@@ -94,11 +99,16 @@ PRODUCCION Y DJ
     display: flex;
     gap: 3rem;
     margin: 3rem;
+
+    div {
+        width: 100%;
+    }
 }
 
 .contenido-curso-inicial img {
-    height: 100px;
+    height: 200px;
     width: 500px;
+    border-radius: 10px;
 }
 
 .contenido-curso-inicial h4{
@@ -111,7 +121,7 @@ PRODUCCION Y DJ
 
 
 .curso-avanzado { 
-    background-color: aqua;
+    background-color: rgb(128, 138, 138);
     padding: 2rem;
     margin: 1rem;
 }
@@ -126,11 +136,16 @@ PRODUCCION Y DJ
     display: flex;
     gap: 3rem;
     margin: 3rem;
+
+    div {
+        width: 100%;
+    }
 }
 
 .contenido-curso-avanzado img {
-    height: 100px;
+    height: 200px;
     width: 500px;
+    border-radius: 10px;
 }
 
 .contenido-curso-avanzado h4{
@@ -165,26 +180,53 @@ PRODUCCION Y DJ
         
     }
 
-    .produccion-musical {
-        text-align: center;
+    .video-inicio {
+        width: 100%;
+        height: auto;
     }
 
+    .produccion-musical {
+        text-align: center;
+
+        h2 {
+            font-size: 2rem;
+        }
+    }
+
+    .carreras, .curso-inicial, .curso-avanzado {
+        padding: 1rem;
+        margin: 0.5rem;
+    }
+
+    .contenido-carreras, .contenido-curso-inicial, .contenido-curso-avanzado {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .contenido-carreras img, .contenido-curso-inicial img, .contenido-curso-avanzado img {
+        width: 100%; // Asegúrate de que las imágenes se ajusten al contenedor
+        height: auto; // Mantiene las proporciones de la imagen
+    }
+
+    .contenido-carreras, .contenido-curso-inicial, .contenido-curso-avanzado {
+        margin: 1rem 0; // Ajusta el margen para mejorar la separación
+    }
 }
 
 
 @media only screen and (max-width: 580px){
 
-   .contenido-carreras p {
-    display: none;
-   }
+    .inicio-produccion p {
+        font-size: 0.9rem;
+    }
 
-   .contenido-curso-inicial p {
-    display: none;
-   }
+    .inicio-produccion img {
+        width: 100%;
+    }    
 
-   .contenido-curso-avanzado p {
-    display: none;
-   }
+    .contenido-carreras p, .contenido-curso-inicial p, .contenido-curso-avanzado p {
+        display: none;
+    }
 
 }
 
